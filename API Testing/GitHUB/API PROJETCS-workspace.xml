@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="API PROJETCS" cid="8de52dba-63dc-41e6-ae17-f992a15a90ce" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:expandedTreeNodes>
+    <con:project path="">
+      <nodeId>333b3b92-bc99-4628-afcb-90672b2992ea</nodeId>
+    </con:project>
+  </con:expandedTreeNodes>
+  <con:dashboardTileCollection>
+    <con:dashboardTiles>
+      <con:dashboardTile tileId="709b74b3-3ae9-4336-8769-d73c15f6424e" tileType="NEW_TEST"/>
+      <con:dashboardTile tileId="77c7653a-fa53-420d-97fb-6a1280e199e2" tileType="TEST_SUITE_STATUS">
+        <con:settings xsi:type="con:TestStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="6cf6e674-db92-40e1-96da-181ca5bb81d2" tileType="TEST_CASE_STATUS_TILE">
+        <con:settings xsi:type="con:TestCaseStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="ceb6f381-01fb-4e85-860b-b15a35f1bb2e" tileType="SECURE_TILE">
+        <con:settings xsi:type="con:SecureTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:scan>All Scans</con:scan>
+          <con:project>All Projects</con:project>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="4fd16eac-5e6e-477b-b5de-029175a3010f" tileType="LOADUI_HISTORY_TILE">
+        <con:settings xsi:type="con:LoadHistoryTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:project>All Projects</con:project>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="d151ae0e-81d0-4650-9411-717358dc6cfc" tileType="SERVICEV">
+        <con:settings xsi:type="con:ServiceVTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:tableSettings>
+            <con:column>Name</con:column>
+            <con:column>Status</con:column>
+            <con:column>Location</con:column>
+            <con:column>Port</con:column>
+          </con:tableSettings>
+        </con:settings>
+      </con:dashboardTile>
+    </con:dashboardTiles>
+    <con:recentDashboardTiles/>
+  </con:dashboardTileCollection>
+</con:soapui-workspace>
